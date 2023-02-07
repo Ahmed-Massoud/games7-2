@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games7 | Pubg Mobile</title>
+<link rel="styleSheet" href="home.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+  <script src="main.js"></script>
+  <script src="apps.js"></script>
+<header>
+<script>
+  a= location.search;
+  a=a.replace("?a=","");
+  a= a.replace("%20"," ");
+let dis = document.getElementById("describtion");
+
+
+let b = apps.find(o => o.name == "pubg mobile");
+dis.innerHTML=`${b.describtion}`;
+  </script>
+  <div class="back">
+
+  </div>
+
+  <div class="container">
+    <div>
+      <h2>GAMES<h1>7</h1>
+      </h2>
+    </div>
+
+    <div class="menu">
+      <input type="checkbox" id="check">
+      <label for="check">
+      </label>
+      <div class="links">
+        <div>
+          <a href="Home.html">Home</a>
+          <a href="Home.html/#Pgames">Popular games</a>
+          <a href="Home.html/#Rgames">Recent game</a>
+          <a href="#">About us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="sec1">
+  <div class="bigDiv">
+
+  </div>
+</section>
+<section class="sec2">
+  <div class="container">
+    <h1 class="titel">
+      The <span>Describtion</span> of Games
+    </h1>
+    <p id="describtion">
+     
+      </p>
+  </div>
+</section>
+<section class="sec3">
+  <div class="container">
+    <h1 class="titel">
+      The <span>Links</span> of Games
+    </h1>
+    <div class="gamelinks">
+        <h2>Website1.Com</h2>
+        <button> <p>Go</p></button>
+      <button><p>download</p></button>
+    </div>
+    <div class="gamelinks">
+        <h2>Website2.Com</h2>
+        <button> <p>Go</p> </button>
+      <button><p>download</p></button>
+    </div>
+    <div class="gamelinks">
+        <h2>Website3.Com</h2>
+        <button> <p>Go</p> </button>
+      <button><p>download</p></button>
+    </div>
+  </div>
+</section>
+
+<section class="footer">
+  <p class="tertiary">
+    &copy; 2023 Games 7. All Rights Reserved
+  </p>
+</section>
+</body>
+
+<script src="main2.js"></script>
+<script src="game.js"></script>
+</html>
